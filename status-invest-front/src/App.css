@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.form-results-container {
+  width: 60%;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: max-content;
+  padding: 20px 0px;
+  gap: 10px;
+}
+
+.results-container {
+  height: max-content;
+  width: 100%;
+}
+
+.table-current-status {
+  background-color: rgb(184, 195, 203);
+  color: black;
+}
+
+.cabecalho-table {
+  font-size: 90px;
+  font-weight: bolder;
+  color: black;
+}
+
+.fundamentalists-indicators {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  background-color: rgba(0, 140, 255, 0.818);
+  color: rgb(224, 232, 239)
+}
+
+.title-fundamentalists {
+  margin-bottom: 10px;
+}
+
+.arrow-text-container {
+  display: flex;
+  align-items: center;
+}
+
+.indicators-container hr {
+  margin-bottom: 10px;
+}
+
+.arrow-text-container p {
+  padding: 30px;
+  font-weight: bold;
+  text-align: justify;
+}
+
+.arrow-text-container p:last-child {
+  border: 2px dashed rgb(21, 120, 233);
+}
